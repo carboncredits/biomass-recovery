@@ -16,12 +16,12 @@ import tempfile
 import shutil
 import sqlalchemy
 
-from src.data.gedi_cmr_query import query
-from src.data import gedi_database_loader
-from src import constants
+from biomassrecovery.data.gedi_cmr_query import query
+from biomassrecovery.data import gedi_database_loader
+from biomassrecovery.import constants
 from functools import partial
 from typing import List, Optional
-from src.utils import logging_util
+from biomassrecovery.utils import logging_util
 
 logger = logging_util.get_logger(__name__)
 

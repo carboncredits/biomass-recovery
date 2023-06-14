@@ -7,7 +7,7 @@ from typing import Union
 
 from tqdm.autonotebook import tqdm
 
-from src.utils.logging import get_logger
+from biomassrecovery.utils.logging import get_logger
 
 logger = get_logger(__file__)
 

@@ -1,6 +1,6 @@
 import pytest
 
-from src.data.gedi_database import gedi_sql_query
+from biomassrecovery.data.gedi_database import gedi_sql_query
 
 def test_simple_query():
 	query = gedi_sql_query(

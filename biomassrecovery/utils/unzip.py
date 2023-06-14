@@ -7,7 +7,7 @@ from typing import Callable, Optional
 
 from tqdm.autonotebook import tqdm
 
-from src.utils import util_logging
+from biomassrecovery.utils import util_logging
 
 logger = util_logging.get_logger(__name__)
 
