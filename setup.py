@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="src",
+    name="biomassrecovery",
     version="0.0.1",
     author="Simon V. Mathis (AI4ER CDT, University of Cambridge)",
     author_email="author@example.com",
