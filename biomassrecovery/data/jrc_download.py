@@ -10,7 +10,7 @@ import subprocess
 import psutil
 import requests
 
-from biomassrecovery.constants import DATA_PATH
+from biomassrecovery.environment import DATA_PATH
 from biomassrecovery.utils.logging_util import get_logger
 
 logger = get_logger(__name__)

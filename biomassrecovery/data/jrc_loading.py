@@ -8,7 +8,7 @@ import rioxarray as rxr
 import xarray as xr
 from tqdm.autonotebook import tqdm
 
-from biomassrecovery.constants import JRC_PATH
+from biomassrecovery.environment import JRC_PATH
 from biomassrecovery.utils.logging_util import get_logger
 from biomassrecovery.utils.os import list_content
 

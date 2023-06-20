@@ -10,9 +10,11 @@ import sqlalchemy as db
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.sql.schema import Table
 import warnings
+
 from biomassrecovery.data.gedi_granule import GediGranule
 from biomassrecovery.utils import logging_util
-from biomassrecovery.constants import WGS84, DB_CONFIG
+from biomassrecovery.constants import WGS84
+from biomassrecovery.environment import DB_CONFIG
 
 logger = logging_util.get_logger("data_logger", INFO)
 
